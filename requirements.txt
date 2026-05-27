@@ -1,0 +1,16 @@
+# PyTorch CPU build. Install with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# (kept here for reference; main install command is in the README)
+torch
+torchvision
+
+timm>=1.0.0
+scikit-learn
+numpy
+pillow
+matplotlib
+grad-cam
+tqdm
+# kagglehub 1.0.x has a kagglesdk version conflict; pin to last working 0.x
+kagglehub==0.3.6
+requests

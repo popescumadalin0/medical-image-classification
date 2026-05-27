@@ -1,0 +1,16 @@
+# Data and generated artifacts
+data/
+outputs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
